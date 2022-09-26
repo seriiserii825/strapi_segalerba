@@ -22,6 +22,18 @@
     },
     "slug": {
       "type": "string"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "repeater.features",
+      "required": true
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.banner",
+      "required": true
     }
   }
 }
