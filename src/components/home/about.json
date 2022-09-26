@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_home_abouts",
+  "info": {
+    "displayName": "about",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "richtext",
+      "required": true
+    },
+    "button_text": {
+      "type": "string",
+      "required": true,
+      "default": "Conosci il nostro team"
+    },
+    "button_url": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

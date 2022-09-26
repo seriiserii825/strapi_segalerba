@@ -34,6 +34,17 @@
       "repeatable": false,
       "component": "home.banner",
       "required": true
+    },
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.about",
+      "required": true
+    },
+    "certificates": {
+      "type": "component",
+      "repeatable": true,
+      "component": "repeater.certificate-items"
     }
   }
 }

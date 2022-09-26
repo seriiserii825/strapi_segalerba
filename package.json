@@ -11,10 +11,11 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.3.9",
-    "@strapi/plugin-users-permissions": "4.3.9",
     "@strapi/plugin-i18n": "4.3.9",
-    "mysql": "2.18.1"
+    "@strapi/plugin-users-permissions": "4.3.9",
+    "@strapi/strapi": "4.3.9",
+    "mysql": "2.18.1",
+    "strapi-plugin-slugify": "^2.2.3"
   },
   "author": {
     "name": "A Strapi developer"

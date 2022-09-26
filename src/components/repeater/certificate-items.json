@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_repeater_certificate_items",
+  "info": {
+    "displayName": "certificate_items",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
