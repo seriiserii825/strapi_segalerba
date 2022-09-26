@@ -16,16 +16,15 @@
       "type": "string",
       "required": true
     },
-    "slug": {
-      "type": "string",
-      "required": false,
-      "unique": true
-    },
     "posts": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::post.post",
       "inversedBy": "post_tags"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }

@@ -16,11 +16,6 @@
       "type": "string",
       "required": true
     },
-    "slug": {
-      "type": "string",
-      "required": true,
-      "unique": true
-    },
     "image": {
       "type": "media",
       "multiple": false,
@@ -41,6 +36,10 @@
       "relation": "manyToMany",
       "target": "api::post-tag.post-tag",
       "mappedBy": "posts"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }

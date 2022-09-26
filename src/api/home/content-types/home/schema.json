@@ -45,6 +45,11 @@
       "type": "component",
       "repeatable": true,
       "component": "repeater.certificate-items"
+    },
+    "latest_posts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.latest-posts"
     }
   }
 }

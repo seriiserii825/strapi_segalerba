@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_home_latest_posts",
+  "info": {
+    "displayName": "latest_posts",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "button_text": {
+      "type": "string"
+    },
+    "posts_ids": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
