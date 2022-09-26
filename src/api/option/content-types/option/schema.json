@@ -108,6 +108,40 @@
     "Text": {
       "type": "richtext",
       "required": true
+    },
+    "short_company_name": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "hours": {
+      "type": "richtext"
+    },
+    "whatsup_number": {
+      "type": "string"
+    },
+    "full_company_name": {
+      "type": "string"
+    },
+    "vat": {
+      "type": "string"
+    },
+    "partner_text": {
+      "type": "string"
+    },
+    "partner_url": {
+      "type": "string"
+    },
+    "partner_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "servizis",
+  "info": {
+    "singularName": "servizi",
+    "pluralName": "servizis",
+    "displayName": "servizi",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "page_intro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.page-intro"
+    },
+    "servizi_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "repeater.servizi-items"
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "richtext",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
