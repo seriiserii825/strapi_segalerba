@@ -1,0 +1,47 @@
+{
+  "kind": "singleType",
+  "collectionName": "chi_siamos",
+  "info": {
+    "singularName": "chi-siamo",
+    "pluralName": "chi-siamos",
+    "displayName": "chi siamo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid"
+    },
+    "page_intro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.page-intro",
+      "required": true
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "title_1": {
+      "type": "string",
+      "required": true
+    },
+    "title_2": {
+      "type": "string",
+      "required": true
+    },
+    "team_1": {
+      "type": "component",
+      "repeatable": true,
+      "component": "repeater.team"
+    },
+    "team_2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "repeater.team"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_repeater_teams",
+  "info": {
+    "displayName": "team",
+    "icon": "angry",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "tag": {
+      "type": "enumeration",
+      "enum": [
+        "Agente immobiliare",
+        "Ceo & founder",
+        "Coo"
+      ],
+      "default": "Agente immobiliare",
+      "required": true
+    },
+    "text": {
+      "type": "richtext",
+      "required": true
+    },
+    "agente_tags": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::agente-tag.agente-tag"
+    },
+    "socials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "repeater.socials",
+      "required": true
+    }
+  }
+}

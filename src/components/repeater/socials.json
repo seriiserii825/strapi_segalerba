@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_repeater_socials",
+  "info": {
+    "displayName": "socials",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "social_label": {
+      "type": "enumeration",
+      "enum": [
+        "phone",
+        "email",
+        "linkedin"
+      ],
+      "default": "phone",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

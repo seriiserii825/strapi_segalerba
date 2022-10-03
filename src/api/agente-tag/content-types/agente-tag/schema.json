@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "agente_tags",
+  "info": {
+    "singularName": "agente-tag",
+    "pluralName": "agente-tags",
+    "displayName": "agente_tag"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
