@@ -134,6 +134,17 @@
       "type": "string"
     },
     "partner_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "og_image": {
       "allowedTypes": [
         "images",
         "files",
@@ -141,7 +152,8 @@
         "audios"
       ],
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "required": true
     }
   }
 }
