@@ -4,7 +4,8 @@
   "info": {
     "singularName": "contatti",
     "pluralName": "contattis",
-    "displayName": "Contatti"
+    "displayName": "Contatti",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -16,6 +17,11 @@
       "repeatable": false,
       "component": "global.page-intro",
       "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
     }
   }
 }

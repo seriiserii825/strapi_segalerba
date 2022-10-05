@@ -24,6 +24,11 @@
       "type": "component",
       "repeatable": false,
       "component": "global.page-intro"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
     }
   }
 }
