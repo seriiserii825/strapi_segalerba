@@ -15,6 +15,11 @@
     "title": {
       "type": "string",
       "required": true
+    },
+    "localita_immobiles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::localita-provincia.localita-provincia"
     }
   }
 }
