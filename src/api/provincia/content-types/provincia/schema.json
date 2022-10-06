@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "provincias",
+  "info": {
+    "singularName": "provincia",
+    "pluralName": "provincias",
+    "displayName": "provincia_immobile",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

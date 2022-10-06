@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tipo_immobiles",
+  "info": {
+    "singularName": "tipo-immobile",
+    "pluralName": "tipo-immobiles",
+    "displayName": "tipo_immobile"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

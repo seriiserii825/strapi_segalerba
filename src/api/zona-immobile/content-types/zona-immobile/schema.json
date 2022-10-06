@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "zona_immobiles",
+  "info": {
+    "singularName": "zona-immobile",
+    "pluralName": "zona-immobiles",
+    "displayName": "zona_immobile"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

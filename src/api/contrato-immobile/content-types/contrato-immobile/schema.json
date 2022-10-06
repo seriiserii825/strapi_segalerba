@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contrato_immobiles",
+  "info": {
+    "singularName": "contrato-immobile",
+    "pluralName": "contrato-immobiles",
+    "displayName": "contrato_immobile"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

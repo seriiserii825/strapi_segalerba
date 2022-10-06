@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "residenziale_immobiles",
+  "info": {
+    "singularName": "residenziale-immobile",
+    "pluralName": "residenziale-immobiles",
+    "displayName": "residenziale_immobile"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "si",
+      "unique": true
+    }
+  }
+}

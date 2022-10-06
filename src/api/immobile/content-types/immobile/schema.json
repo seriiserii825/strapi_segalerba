@@ -1,0 +1,94 @@
+{
+  "kind": "collectionType",
+  "collectionName": "immobiles",
+  "info": {
+    "singularName": "immobile",
+    "pluralName": "immobiles",
+    "displayName": "immobile",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "loop_text": {
+      "type": "text",
+      "required": true
+    },
+    "text": {
+      "type": "richtext",
+      "required": true
+    },
+    "price": {
+      "type": "float",
+      "required": true
+    },
+    "gallery": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "riferimento": {
+      "type": "text",
+      "required": true
+    },
+    "coords": {
+      "type": "string",
+      "required": true
+    },
+    "characteristics": {
+      "type": "richtext",
+      "required": true
+    },
+    "planimetry": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "area": {
+      "type": "float",
+      "required": true
+    },
+    "locali": {
+      "type": "integer",
+      "required": true
+    },
+    "bagni": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

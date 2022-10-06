@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "localita_provincias",
+  "info": {
+    "singularName": "localita-provincia",
+    "pluralName": "localita-provincias",
+    "displayName": "localita_immobile",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
