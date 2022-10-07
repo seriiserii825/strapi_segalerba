@@ -65,7 +65,7 @@
     },
     "characteristics": {
       "type": "richtext",
-      "required": true
+      "required": false
     },
     "planimetry": {
       "type": "media",
@@ -89,6 +89,31 @@
     "bagni": {
       "type": "integer",
       "required": true
+    },
+    "contrato_immobile": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::contrato-immobile.contrato-immobile"
+    },
+    "localita_immobile": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::localita-provincia.localita-provincia"
+    },
+    "zona_immobile": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::zona-immobile.zona-immobile"
+    },
+    "tipo_immobile": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::tipo-immobile.tipo-immobile"
+    },
+    "residenziale_immobile": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::residenziale-immobile.residenziale-immobile"
     }
   }
 }
