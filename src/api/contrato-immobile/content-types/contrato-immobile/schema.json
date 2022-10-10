@@ -4,7 +4,8 @@
   "info": {
     "singularName": "contrato-immobile",
     "pluralName": "contrato-immobiles",
-    "displayName": "contrato_immobile"
+    "displayName": "contrato_immobile",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
